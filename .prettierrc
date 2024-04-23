@@ -1,0 +1,26 @@
+{
+  "printWidth": 120,
+  "endOfLine": "lf",
+  "proseWrap": "always",
+  "arrowParens": "avoid",
+  "quoteProps": "as-needed",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "importOrderSeparation": true,
+  "importOrder": [
+    "^@remix(.*)$",
+    "",
+    "^react",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^[.~/](.*)(ts|tsx)",
+    "",
+    "",
+    "(.*)(css)$"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx"],
+  "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"]
+}
