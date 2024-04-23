@@ -1,53 +1,19 @@
-# Welcome to Remix + Vite!
+# INSTRUCTIONS
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite)
-for details on supported features.
-
-## Description
-
-No BS Remix Express Template Starter (2024)
-
-:)
-
-## Tech stack
-
-- Remix v2 + Express.js (For middleware support)
-- Vite v5
-- TypeScript
-- TailwindCSS
-- shadcn/ui (For UI/UX components)
-- Drizzle ORM (Duh)
-- Superbase (For DB/Auth)
-- SST Ion (For deploying seamlessly to AWS/Cloudflare)
-
-## Development
-
-Run the Express server with Vite dev middleware:
-
-```shellscript
-npm run dev
-```
-
-## Deployment
-
-First, build your app for production:
+1. Create a mandatory .env file
 
 ```sh
-npm run build
+cp .env.sample .env
 ```
 
-Then run the app in production mode:
+2. Run `pnpm run dev`
 
-```sh
-npm start
-```
+3. Navigate to a sign up/in page
 
-Now you'll need to pick a host to deploy it to.
+4. Edit and save the sign up/in route file
 
-### DIY
+5. Click on the ACME link immediately to navigate back to the home page
 
-If you're familiar with deploying Express applications you should be right at home. Just make sure to deploy the output
-of `npm run build`
+6. ???
 
-- `build/server`
-- `build/client`
+7. Profit :)
