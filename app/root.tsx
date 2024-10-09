@@ -1,9 +1,8 @@
 import { type LinksFunction } from '@remix-run/node';
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
 
-import tailwindHref from '~/styles/tailwind.css?url';
+import tailwindHref from '~/styles.css?url';
 
-import { Header } from './components/header';
 
 export const links: LinksFunction = () => [{ rel: 'stylesheet', href: tailwindHref }];
 
@@ -28,12 +27,5 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return (
-    <div className="flex h-screen flex-col justify-between">
-      <Header />
-      <div className="flex-1">
-        <Outlet />
-      </div>
-    </div>
-  );
+  return <Outlet />;
 }

@@ -1,19 +1,13 @@
-# INSTRUCTIONS
+# Steps to reproduce
 
-1. Create a mandatory .env file
+1. `pnpm install && pnpm run dev`
 
-```sh
-cp .env.sample .env
-```
+2. Load http://localhost:5173
 
-2. Run `pnpm run dev`
+3. Click the link to navigate to the /page route
 
-3. Navigate to a sign up/in page
+4. Make any change to the app/styles.css file to trigger Vite CSS HMR
 
-4. Edit and save the sign up/in route file
+5. Click the link in the page to go back to the index page
 
-5. Click on the ACME link immediately to navigate back to the home page
-
-6. ???
-
-7. Profit :)
+6. Error occurs

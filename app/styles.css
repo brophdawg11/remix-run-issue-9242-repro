@@ -1,0 +1,10 @@
+pre {
+  display: inline;
+  font-weight: bold;
+}
+
+/* Comment this out below to trigger HMR */
+/* happens in vite code at: https://github.com/vitejs/vite/blob/889bfc0ada6d6cd356bb7a92efdce96298f82fef/packages/vite/src/client/client.ts#L243 */
+h1 {
+  color: blue;
+}
